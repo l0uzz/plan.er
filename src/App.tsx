@@ -26,7 +26,7 @@ export function App() {
   }
 
   function addNewEmailToInvite(event: FormEvent <HTMLFormElement>){
-      event.preventDefault
+      event.preventDefault()
 
       const data = new FormData(event.currentTarget)
       const email = data.get('email')?.toString()
